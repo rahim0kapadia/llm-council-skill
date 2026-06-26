@@ -29,7 +29,7 @@ Use this for expensive-to-be-wrong decisions, not for routine debugging or statu
    - Expansionist: upside, adjacent opportunity, bigger leverage.
    - Outsider: clarity for someone without insider context.
    - Executor: fastest practical path and Monday-morning action.
-   - Domain expert (optional 6th seat — add ONLY when the decision sits in a known expert's domain): dispatch the matching cached agent, e.g. `Agent(alex-hormozi)` for offers/pricing/monetization, `chris-dreyer` for legal-SEO, `peep-laja` for CRO. Skip for code/architecture or any decision with no clear domain expert — don't force a marketing lens onto a technical fork.
+   - **Hormozi (offer economics) — standing 6th seat, always dispatched**: `Agent(alex-hormozi)` applies his lens to the decision's money/leverage/constraint angle. If the decision is purely technical with no economic dimension, he says "no economic angle here" in one line — he's always at the table, never forced to invent relevance. (Add other domain experts — `chris-dreyer` legal-SEO, `peep-laja` CRO — when their domain also applies.)
 
 3. Each advisor response must be 120-220 words, direct, and specific. No preamble.
 
