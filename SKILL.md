@@ -29,6 +29,7 @@ Use this for expensive-to-be-wrong decisions, not for routine debugging or statu
    - Expansionist: upside, adjacent opportunity, bigger leverage.
    - Outsider: clarity for someone without insider context.
    - Executor: fastest practical path and Monday-morning action.
+   - Domain expert (optional 6th seat — add ONLY when the decision sits in a known expert's domain): dispatch the matching cached agent, e.g. `Agent(alex-hormozi)` for offers/pricing/monetization, `chris-dreyer` for legal-SEO, `peep-laja` for CRO. Skip for code/architecture or any decision with no clear domain expert — don't force a marketing lens onto a technical fork.
 
 3. Each advisor response must be 120-220 words, direct, and specific. No preamble.
 
@@ -75,18 +76,20 @@ Interactive `/roast` use: feed the reframe answers straight into the scoping bel
    - NEW → constraints: budget, time-to-first-dollar, hard nos?
      EXISTING → current traction: what's it doing now (users / revenue / conversion) and what made you doubt it?
 
-2. **Run the 5 advisors in parallel, with two swaps from the default set:**
+2. **Run the 6 advisors in parallel** (default set, two swaps, plus a standing offer-economics seat):
    - Contrarian: fatal flaws, why this dies / why it's already failing. (same)
    - Expansionist: biggest upside / adjacent leverage. (same)
    - First Principles: pure logic, no outside context. (same)
    - **Deep Researcher** (replaces Outsider): pull real market size + competitor pricing off the web (WebSearch). Cite URLs — no fabricated numbers (zero-hallucination-policy).
    - **Buyer** (replaces Executor): role-play the named ICP. State plainly "would I pay $X? y/n" + the top objection. For EXISTING, react to the real thing as shipped — what makes you bounce.
+   - **Hormozi (offer economics)** — standing seat in Roast Mode. Dispatch `Agent(alex-hormozi)` so the full lens applies, don't paraphrase it. He runs his gates on the idea/thing: **CFA** (`30-day gross profit ≥ 2 × (CAC + COGS)`?), **LTGP:CAC** (`≥ 3`? star `≥ 30`?), **Value Equation** (numerator high, time+effort → 0?), is there a real **guarantee**, and **is this even the binding constraint** (ToC). Returns offer-strength + the single biggest monetization fix.
 
 3. **Judge synthesizes ONE verdict** in this shape:
 
    - **Verdict:** NEW → green-light / reshape / kill. EXISTING → double-down / pivot / kill. — confidence 0-100%
-   - **Per-persona score:** Contrarian _/10 · Expansionist _/10 · First-Principles _/10 · Researcher _/10 · Buyer _/10
+   - **Per-persona score:** Contrarian _/10 · Expansionist _/10 · First-Principles _/10 · Researcher _/10 · Buyer _/10 · Hormozi _/10
+   - **Offer economics** (from Hormozi seat): CFA pass/fail · LTGP:CAC value · biggest monetization fix. (If CAC/COGS/LTGP aren't known, say so — don't fabricate the numbers; flag them as the first thing the 48h test should surface.)
    - **Biggest risk** (one line) · **Biggest upside** (one line)
    - **Cheapest 48-hour test:** the single smallest experiment that validates the verdict. NEW → validates demand before any code (e.g. "DM 20 of the ICP, ask for pre-orders"). EXISTING → the smallest change/probe that confirms double-down-or-kill (e.g. "A/B the headline on live traffic for 48h", "email 15 churned users why they left"). Must be runnable in 48h with the stated budget.
 
-Researcher numbers cite a source; Buyer/scores are explicitly the persona's judgment, not fact.
+Researcher numbers cite a source; Buyer/Hormozi/scores are explicitly judgment, not fact — and any $/ratio with no known input is flagged unknown, never invented.
