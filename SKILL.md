@@ -67,7 +67,7 @@ Before the council, pressure-test *what* is being evaluated with these 6 YC-styl
 - **Startup mode** (real user / money / business): 1) Who is the user, named specifically? 2) What's the real problem in their words? 3) Narrowest wedge that solves a piece? 4) Why now? 5) How will it die (3 failure modes)? 6) The desperate specificity only an insider would know.
 - **Builder mode** (side project / internal tool): 1) Smallest version that teaches the most? 2) The part you actually want to build? 3) The part you'd skip if it's a chore? 4) Steal vs build? 5) What's "done" in a week? 6) Who else might use it?
 
-When invoked as the atlas-orchestrator **BUILD chain step** (`skill: office-hours`), run this phase in auto-mode and write the result to `docs/orchestrator/{slug}/specs/{slug}-reframe.md` per the template in `skills/office-hours/SKILL.md`. Surface to the user only if Q1 (user) is unanswerable or Q3 (wedge) has multiple credible candidates; mark inferred answers `[inferred]`. Interactive `/roast` use: just feed the reframe answers into the scoping below — no doc needed.
+Interactive `/roast` use: feed the reframe answers straight into the scoping below — no doc. BUILD-chain use (`skill: office-hours`) writes a reframe doc + has its own auto-mode rules — `skills/office-hours/SKILL.md` owns that contract.
 
 1. **Ask 3 scoping questions first, then wait for answers:**
    - Who exactly is the target buyer?
