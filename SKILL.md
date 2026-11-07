@@ -30,6 +30,7 @@ Use this for expensive-to-be-wrong decisions, not for routine debugging or statu
    - Outsider: clarity for someone without insider context.
    - Executor: fastest practical path and Monday-morning action.
    - **Hormozi (offer economics) — standing 6th seat, always dispatched**: `Agent(alex-hormozi)` applies his lens to the decision's money/leverage/constraint angle. If the decision is purely technical with no economic dimension, he says "no economic angle here" in one line — he's always at the table, never forced to invent relevance. (Add other domain experts — `chris-dreyer` legal-SEO, `peep-laja` CRO — when their domain also applies.)
+   - **Optional business-lens seats** (dispatch only the ones whose domain the decision touches; each says "no <lens> angle here" in one line when it has none, and each cites its sources): `Agent(naval-ravikant)` leverage, equity, long-term games; `Agent(codie-sanchez)` buying boring businesses, deal structure, buy-vs-build; `Agent(leila-hormozi)` hiring, accountability, operations; `Agent(sara-blakely)` first product, bootstrapping, selling a new category. They are advisors with published sources, not a stand-in for the user: there is no seat that answers as the user.
 
 3. Each advisor response must be 120-220 words, direct, and specific. No preamble.
 
